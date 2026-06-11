@@ -42,7 +42,7 @@ Completa los laboratorios en orden para experimentar una curva de aprendizaje or
 
 ### 1. Clona el repositorio
 ```bash
-git clone [https://github.com/ssh-javi/docker-labs.git](https://github.com/ssh-javi/docker-labs.git)
+git clone https://github.com/ssh-javi/docker-labs.git
 cd docker-labs
 ```
 
