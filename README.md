@@ -25,16 +25,16 @@ Cada laboratorio está estructurado como un ticket de soporte o una misión de n
 
 Completa los laboratorios en orden para experimentar una curva de aprendizaje orgánica, desde los fundamentos de desarrollo local hasta la ingeniería de infraestructura enterprise.
 
-| Nivel | Laboratorio | Tecnologías Clave | El Dolor Real que Resuelves |
-| :---: | :--- | :--- | :--- |
-| 🟢 <br> **Junior** | **[01-the-missing-package](./01-the-missing-package)** | `Dockerfile`, `RUN`, `ENV` | "En mi máquina funciona". Crear un entorno empaquetado y estandarizado desde cero. |
-| 🟢 <br> **Junior** | **[02-where-is-my-data](./02-where-is-my-data)** | `Named Volumes`, `Bind Mounts` | Detener la pérdida de datos de bases de datos cuando los contenedores se reinician. |
-| 🟢 <br> **Junior** | **[03-it-works-on-my-machine](./03-it-works-on-my-machine)** | `Docker Compose`, `Networks` | Resolver el clásico error `Connection Refused` al conectar una API con su Base de Datos. |
-| 🟡 <br> **Mid** | **[04-the-bloated-image](./04-the-bloated-image)** | `Multi-stage`, `Alpine`, Cache | Optimizar un pipeline de CI/CD reduciendo una imagen de 1.8GB a menos de 150MB. |
-| 🟡 <br> **Mid** | **[05-the-secret-leak](./05-the-secret-leak)** | `.dockerignore`, Layers, Secrets | Eliminar API Keys expuestas en el historial de capas de Docker detectadas por auditoría. |
-| 🟡 <br> **Mid** | **[06-the-zombie-process](./06-the-zombie-process)** | `PID 1`, `SIGTERM`, Exec vs Shell | Evitar que Docker corte transacciones activas de usuarios al hacer un *Graceful Shutdown*. |
-| 🔴 <br> **Senior** | **[07-the-resource-hog](./07-the-resource-hog)** | `Limits`, `OOM Killer`, CGroups | Aislar un contenedor con fuga de memoria para que no congele el servidor completo. |
-| 🔴 <br> **Senior** | **[08-the-multi-arch-nightmare](./08-the-multi-arch-nightmare)**| `Buildx`, `QEMU`, Manifests | Resolver el error `exec format error` al desplegar desde Macs M1/M2/M3 a servidores AMD64. |
+| Estado |     Nivel     | Laboratorio                                            | Tecnologías Clave                 | El Dolor Real que Resuelves                                                                |
+| :----: | :-----------: | :----------------------------------------------------- | :-------------------------------- | :----------------------------------------------------------------------------------------- |
+|    ✅   | 🟢 **Junior** | **[01-the-missing-package](./01-the-missing-package)** | `Dockerfile`, `RUN`, `ENV`        | "En mi máquina funciona". Crear un entorno empaquetado y estandarizado desde cero.         |
+|    ✅   | 🟢 **Junior** | **[02-where-is-my-data](./02-where-is-my-data)**       | `Named Volumes`, `Bind Mounts`    | Detener la pérdida de datos de bases de datos cuando los contenedores se reinician.        |
+|   🚧   | 🟢 **Junior** | **03-it-works-on-my-machine**                          | `Docker Compose`, `Networks`      | Resolver el clásico error `Connection Refused` al conectar una API con su Base de Datos.   |
+|    ⏳   |   🟡 **Mid**  | **04-the-bloated-image**                               | `Multi-stage`, `Alpine`, Cache    | Optimizar un pipeline de CI/CD reduciendo una imagen de 1.8GB a menos de 150MB.            |
+|    ⏳   |   🟡 **Mid**  | **05-the-secret-leak**                                 | `.dockerignore`, Layers, Secrets  | Eliminar API Keys expuestas en el historial de capas de Docker detectadas por auditoría.   |
+|    ⏳   |   🟡 **Mid**  | **06-the-zombie-process**                              | `PID 1`, `SIGTERM`, Exec vs Shell | Evitar que Docker corte transacciones activas de usuarios al hacer un *Graceful Shutdown*. |
+|    ⏳   | 🔴 **Senior** | **07-the-resource-hog**                                | `Limits`, `OOM Killer`, CGroups   | Aislar un contenedor con fuga de memoria para que no congele el servidor completo.         |
+|    ⏳   | 🔴 **Senior** | **08-the-multi-arch-nightmare**                        | `Buildx`, `QEMU`, `Manifests`     | Resolver el error `exec format error` al desplegar desde Macs M1/M2/M3 a servidores AMD64. |
 
 ---
 
@@ -42,7 +42,7 @@ Completa los laboratorios en orden para experimentar una curva de aprendizaje or
 
 ### 1. Clona el repositorio
 ```bash
-git clone [https://github.com/TU_USUARIO/docker-labs.git](https://github.com/TU_USUARIO/docker-labs.git)
+git clone [https://github.com/ssh-javi/docker-labs.git](https://github.com/ssh-javi/docker-labs.git)
 cd docker-labs
 ```
 
