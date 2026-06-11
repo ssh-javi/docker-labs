@@ -1,0 +1,15 @@
+{
+  "name": "picshare-metrics",
+  "version": "1.0.0",
+  "description": "Microservicio de analíticas y métricas de PicShare",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  },
+  "author": "DevOps Labs Team",
+  "license": "MIT"
+}

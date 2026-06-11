@@ -1,0 +1,14 @@
+{
+  "name": "picshare-image-processor",
+  "version": "1.0.0",
+  "description": "Microservicio para el procesamiento y redimensionamiento de imágenes de PicShare",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "author": "DevOps Labs Team",
+  "license": "MIT"
+}
